@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <fieldset>
+        <legend> <h2> Information </h2> </legend>
+    <center>
+    <form action="">
+        <table cellspacing="10px">
+            <tr>
+                <td> First Name: </td>
+                <td> <input type="text" placeholder=" Enter First Name"> </td>
+            </tr>
+            
+            <tr>
+                <td> Last Name: </td>
+                <td> <input type="text" placeholder="Enter Last Name"> </td>
+            </tr>
+            
+            <tr>
+                <td> E-mail: </td>
+                <td> <input type="mail" placeholder="Enter E-mail"> </td>
+            </tr>
+
+            <tr>
+                <td> Password: </td>
+                <td> <input type="password" placeholder="Enter Password" maxlength="8"> </td>
+            </tr>
+
+            <tr>
+                <td> Gender: </td>
+                <td> <input type="radio" name="Gender">Male 
+                     <input type="radio" name="Gender">Female
+                     <input type="radio" name="Gender">Other
+                </td>
+            </tr>
+
+            <tr>
+                <td> Phone no: </td>
+                <td>
+                    <select>
+                        <option> 91+ </option>    <!--91 is India country code-->
+                        <option> 61+ </option>    <!--61 is Australia country code-->
+                        <option> 1+ </option>     <!--1 is Canada country code-->
+                        <option> 92+ </option>    <!--92 is Pakistan country code-->
+                    </select>
+                    <input type="tel" maxlength="10">
+                 </td>
+            </tr>
+
+            <tr>
+                <td> Date of Birth: </td>
+                <td> <input type="date"> </td>
+            </tr>
+            
+             <tr>
+                <td> Known Language: </td>
+                <td> 
+                    <input type="checkbox">Hindi
+                    <input type="checkbox" checked>English
+                    <input type="checkbox">Gujarati 
+                </td>
+            </tr>
+
+            <tr>
+                <td> State: </td>
+                <td>
+                    <select name="statelist" id="state">
+                        <option> Gujarat </option>
+                        <option> Rajasthan </option>
+                        <option> Maharashtra </option>
+                        <option > Goa </option>
+                    </select>
+                </td>
+            </tr>
+            
+            <tr>
+                <td> File </td>
+                <td> <input type="file" multiple> </td>
+            </tr>
+
+            <tr>
+                <td> Address: </td>
+                <td><textarea name="" id="" cols="25" rows="6" placeholder="Enter Address"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>
+                     <input type="submit" value="submit"> 
+                     <input type="reset" value="reset">
+                </td>
+                
+            </tr>
+        </table>
+    </form>
+    </center>
+</fieldset>
+</body>
+</html>
